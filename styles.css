@@ -1,0 +1,113 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+  background-color: #121212; /* Dark background for contrast */
+  overflow-x: hidden; /* allow vertical scroll */
+  opacity: 0.9; /* Slightly transparent for a modern look */
+}
+
+#three-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none; /* Let clicks pass through */
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  padding: 40px 20px;
+  color: white;
+  text-shadow: 0 0 5px black;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  position:relative;
+  z-index: 1;
+  color: white;
+  padding: 20px;
+}
+
+    #main {
+      background-color: white;
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    #title {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #333;
+    }
+
+    #img-div {
+      margin: 25px 0;
+    }
+
+    #image {
+      max-width: 100%;
+      width: 600px;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    #img-caption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #666;
+    }
+
+    #tribute-info {
+      text-align: left;
+      margin-top: 30px;
+      line-height: 1.8;
+      font-size: 1.1em;
+      color: #444;
+    }
+
+    #tribute-link {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 25px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    #tribute-link:hover {
+      background-color: #0056b3;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      max-width: 100%;
+      height: auto;
+      margin: 10px;
+      border-radius: 8px;
+      width: 280px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
